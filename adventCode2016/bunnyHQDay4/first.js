@@ -28,7 +28,6 @@ const test = (data) => {
       .sort((a, b) => (a[0] > b[0] ? 1 : -1))
       .sort((a, b) => b[1] - a[1]);
 
-    console.log(letterArray);
     const [number, code] = lastCode.replace("]", "").split("[");
     for (let j = 0; j < 5; j++) {
       const key = letterArray[j][0];
