@@ -1,4 +1,4 @@
-const testToRun = require("./adventCode2016/bunnyHQDay6/first");
+const testToRun = require("./adventCode2016/bunnyHQDay1/second");
 
 const runTest = () => {
   testToRun.testData.forEach((element) => {
