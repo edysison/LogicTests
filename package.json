@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest index.spec.js"
+    "test": "jest index.spec.js",
+    "readfile": "node readFile.js"
   },
   "repository": {
     "type": "git",

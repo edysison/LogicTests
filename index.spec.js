@@ -10,11 +10,9 @@ const runTest = () => {
       test(`Test ${
         output ? `with ${output} as` : 'without'
       } expected output`, () => {
-        console.time('timer');
         output
           ? expect(Test(input)).toBe(output)
           : console.log(`response: ${Test(input)}`);
-        console.timeEnd('timer');
       });
     });
   });
