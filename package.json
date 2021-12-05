@@ -1,0 +1,23 @@
+{
+  "name": "logictests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edysison/LogicTests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edysison/LogicTests/issues"
+  },
+  "homepage": "https://github.com/edysison/LogicTests#readme"
+}

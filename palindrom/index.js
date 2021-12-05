@@ -1,14 +1,4 @@
-const testData = [
-  "ama",
-  "mirim",
-  "reviver",
-  "osso",
-  "omississimo",
-  "reler",
-  "martelo",
-];
-
-const test = (data) => {
+const Test = (data) => {
   let middle = Math.floor(data.length / 2);
   for (let i = 0; i < middle; i++) {
     const element = data[i];
@@ -18,4 +8,4 @@ const test = (data) => {
   return 1;
 };
 
-module.exports = { testData, test };
+module.exports = { Test };
