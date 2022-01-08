@@ -8,10 +8,10 @@ writeStream.once('open', function (fd) {
 
 const readerStream = fs.createReadStream('data.txt');
 readerStream.on('data', (chunk) => {
-  const splitted = chunk.toString('utf8').replace(/\r/g, '').split(/\n/g)
-  const formatted = splitted.map( element => 
-    typeof element === 'number' ? element : `"${element}"`
-  ).join(',');
+  const splitted = chunk.toString('utf8').replace(/\r/g, '').split(/\n/g);
+  const formatted = splitted
+    .map((element) => (typeof element === 'number' ? element : `"${element}"`))
+    .join(',');
   writeStream.write(formatted);
 });
 
